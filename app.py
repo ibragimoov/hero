@@ -16,3 +16,6 @@ hero1 = Hero()
 class Enemy:
     hp = 50
     attack = 7
+
+    def make_attack(self):
+        print('Враг атакует')
