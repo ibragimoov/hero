@@ -5,6 +5,12 @@ class Hero:
     def eat(self):
         print('Герой ест')
 
+    def sleep(self):
+        print('Герой спит')
+
+    def make_attack(self):
+        print('Герой атакует')
+
 hero1 = Hero()
 
 class Enemy:
